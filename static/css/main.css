@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	min-height: 200vh;
+}
+
+.navbar-brand {
+	color: #f0f0f0;
+}
+
+
+nav {
+	transition: 0.7s;
+}
+
+.banner {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	background: url(/static/im/playa.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+	.banner .title-banner {
+		height: 100%;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		font-weight: 100;
+		color: #787878;
+	}

@@ -1,0 +1,41 @@
+{% extends "Home/base.html" %}
+
+{% block title %}
+	Home
+{% endblock title %}
+
+{% block header %}
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+{% endblock header %}
+
+
+
+
+
+
+
+
+
+
+
+{% block content %}
+	
+	<section class="banner">
+		<div class="title-banner">
+			<h1 class="display-5">Aquí vamoslee!!</h1>
+		</div>
+	</section>
+
+	<script>
+		window.addEventListener('scroll', (event) => {
+			let header = document.querySelector('nav');
+			header.classList.toggle('bg-light', window.scrollY > 0);
+			header.classList.toggle('navbar-light', window.scrollY > 0);
+			console.log(document.documentElement.scrollTop);
+		});
+	</script>
+
+	{% load static %}
+	<script src="{% static 'js/bootstrap.js' %}"></script>
+{% endblock content %}
