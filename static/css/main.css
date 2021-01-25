@@ -9,6 +9,8 @@ body {
 	min-height: 200vh;
 }
 
+/* Barra de Navegación */
+
 .navbar-brand {
 	color: #f0f0f0;
 }
@@ -17,6 +19,12 @@ body {
 nav {
 	transition: 0.7s;
 }
+
+.btn {
+	margin-right: 10px;
+}
+
+/* Portada Inicio */
 
 .banner {
 	position: relative;
@@ -34,5 +42,76 @@ nav {
 		display: flex;
 		align-items: center;
 		font-weight: 100;
-		color: #787878;
+		color: #434343;
+	}
+
+
+
+/* Contenido Servicios */
+
+.content-services {
+	margin-top: 80px;
+}
+
+.box-content {
+	margin: 50px;
+	padding: 50px;
+}
+
+.icono-inicio {
+	display: flex;
+	justify-content: center;
+}
+
+	.icono-inicio .content-icon {
+		font-size: 10em;
+		color: rgb(7, 121, 228, 1);
+		cursor: pointer;
+		transition: 1s;
+	}
+
+	.icono-inicio .content-icon:hover {
+		color: rgb(214, 52, 71, 1);
+	}
+
+.contenido-inicio {
+	text-align: center;
+	margin: 30px 0;
+}
+
+	.contenido-inicio h1 {
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+
+		.contenido-inicio h1 a {
+			text-decoration: none;
+		}
+
+	.contenido-inicio p.lead {
+		font-size: 1.1em;
+		color: #878787;
+		margin-top: 15px;
+	}
+
+	.contenido-inicio hr {
+		color: rgb(100, 100, 100, 1);
+		border: 2px solid;
+	}
+
+/* Technologies */
+
+.technologies {
+	background: rgb(7, 121, 228, 0.9);
+}
+
+	.technologies i {
+		font-size: 100px;
+		color: #f0f0f0;
+	}
+
+	.technologies .box-technologies {
+		margin: 50px;
+		padding: 50px;
 	}

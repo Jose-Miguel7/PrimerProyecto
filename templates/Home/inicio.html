@@ -1,31 +1,107 @@
 {% extends "Home/base.html" %}
 
+
 {% block title %}
 	Home
 {% endblock title %}
 
 {% block header %}
 	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'fontawesome/css/fontawesome.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'fontawesome/css/brands.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'fontawesome/css/solid.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 {% endblock header %}
-
-
-
-
-
-
-
-
-
-
 
 {% block content %}
 	
 	<section class="banner">
 		<div class="title-banner">
-			<h1 class="display-5">Aquí vamoslee!!</h1>
+			<h1 class="display-1">ReVivee</h1>
 		</div>
 	</section>
+
+	<section class="content-services">	
+		<div class="container">
+			<div class="row box-content">
+				<div class="contenido-inicio col-lg-6">
+					<h1><a href="">Automatización de procesos</a></h1>
+					<hr>
+					<p class="lead">Aqui estará escrito algún contenido para describir alguno de los servicios que se ofrecerán a través de la página</p>
+				</div>
+				<div class="icono-inicio col-lg-6">
+					<a href=""><i class="fas fa-globe-americas content-icon"></i></a>
+				</div>
+			</div>
+			<hr>
+			<div class="row box-content">
+				<div class="icono-inicio col-lg-6">
+					<a href=""><i class="fas fa-globe-americas content-icon"></i></a>
+				</div>
+				<div class="contenido-inicio col-lg-6">
+					<h1><a href="">Desarrollo de sistemas web</a></h1>
+					<hr>
+					<p class="lead">Aqui estará escrito algún contenido para describir alguno de los servicios que se ofrecerán a través de la página</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row box-content">
+				<div class="contenido-inicio col-lg-6">
+					<h1><a href="">Desarrollo de Software</a></h1>
+					<hr>
+					<p class="lead">Aqui estará escrito algún contenido para describir alguno de los servicios que se ofrecerán a través de la página</p>
+				</div>
+				<div class="icono-inicio col-lg-6">
+					<a href=""><i class="fas fa-globe-americas content-icon"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="technologies">
+		<div class="container">		
+			<div class="row box-technologies">
+				<div class="col-lg-2">
+					<i class="fab fa-react"></i>
+				</div>
+
+				<div class="col-lg-2">
+					<i class="fab fa-vuejs"></i>
+				</div>
+
+				<div class="col-lg-2">
+					<i class="fab fa-npm"></i>
+				</div>
+
+				<div class="col-lg-2">
+					<i class="fab fa-python"></i>
+				</div>
+
+				<div class="col-lg-2">
+					<i class="fab fa-node"></i>
+				</div>
+
+				<div class="col-lg-2">
+					<i class="fab fa-aws"></i>
+					
+				</div>
+
+				<div class="col-lg-2">
+					<i class="fab fa-github"></i>				
+				</div>
+
+				<div class="col-lg-2">
+					<i class="fab fa-bootstrap"></i>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
 
 	<script>
 		window.addEventListener('scroll', (event) => {
